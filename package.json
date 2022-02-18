@@ -1,0 +1,22 @@
+{
+  "name": "batalhaesports",
+  "version": "1.0.0",
+  "description": "Batalha e-sports site",
+  "main": "/src/main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LyeZinho/batalhaesports.git"
+  },
+  "keywords": [
+    "e-sports"
+  ],
+  "author": "LyePedro",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/LyeZinho/batalhaesports/issues"
+  },
+  "homepage": "https://github.com/LyeZinho/batalhaesports#readme"
+}
