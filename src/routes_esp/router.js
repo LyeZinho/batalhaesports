@@ -4,10 +4,17 @@ const path = require('path');
 
 
 
-// Rotas par entrega HTML
+// Rotas para entrega HTML
 
 esprouter.get('/', function(req, res){
     res.sendFile(path.join(__dirname, '/home.html'));
+});
+
+
+
+// Rotas para entrega de dados
+esprouter.get('/data/img/splash_braum', function(req, res){
+    res.sendFile(path.join(__dirname, '/img/braum.svg'));
 });
 
 
