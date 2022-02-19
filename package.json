@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/LyeZinho/batalhaesports/issues"
   },
-  "homepage": "https://github.com/LyeZinho/batalhaesports#readme"
+  "homepage": "https://github.com/LyeZinho/batalhaesports#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
