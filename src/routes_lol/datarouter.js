@@ -5,13 +5,13 @@ const path = require('path');
 
 
 //Entrega de recursos graficos
-lolrouterdat.get('/lol/img/:imgsrc', function(req, res){
-    res.sendFile(path.join(__dirname, '/img/' + req.params.imgsrc));
+lolrouterdat.get('/lol/img/:imagesrc', function(req, res){
+    res.sendFile(path.join(__dirname, '/img/' + req.params.imagesrc));
 });
 
-//Entrega de scrips
-lolrouterdat.get('/lol/home/script', function(req, res){
-    res.sendFile(path.join(__dirname, '/home/script.js'));
+//Entrega de scripts
+lolrouterdat.get('/lol/scripts/:scriptsrc', function(req, res){
+    res.sendFile(path.join(__dirname, '/scripts/' + req.params.scriptsrc + '.js'));
 });
 
 

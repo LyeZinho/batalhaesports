@@ -5,7 +5,7 @@ const path = require('path');
 
 //Rotas de entrega HTML
 
-lolrouter.get('/lol/home', function(req, res){
+lolrouter.get('/lol', function(req, res){
     res.sendFile(path.join(__dirname, '/home.html'));
 });
 
