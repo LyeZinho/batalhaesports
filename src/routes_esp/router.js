@@ -12,12 +12,6 @@ esprouter.get('/', function(req, res){
 
 
 
-// Rotas para entrega de dados
-esprouter.get('/data/img/splash_braum', function(req, res){
-    res.sendFile(path.join(__dirname, '/img/braum.svg'));
-});
-
-
 // Rotas para receber requests API
 
 module.exports = esprouter;

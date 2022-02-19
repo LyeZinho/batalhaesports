@@ -22,7 +22,6 @@ lolrouter.get('/lol/top', function(req, res){
 });
 
 
-
 //Rotas para receber requests API
 
 
