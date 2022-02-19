@@ -12,11 +12,14 @@ const esprouterdat = require('./routes_esp/datarouter.js')
 app.use(esprouterdat);
 
 
+
+
 //Rota para o sub dominio rbw6 [Sub dominio raimbowsix]
 
 //Paginas
 const r6router = require('./routes_rb6/router.js');
 app.use(r6router);
+//Dados
 
 
 
@@ -25,9 +28,9 @@ app.use(r6router);
 //Paginas
 const lolrouter = require('./routes_lol/router.js')
 app.use(lolrouter);
-
-
-// Rotas para entrega de recursos
+//Dados
+const lolrouterdat = require('./routes_lol/datarouter.js')
+app.use(lolrouterdat);
 
 
 
