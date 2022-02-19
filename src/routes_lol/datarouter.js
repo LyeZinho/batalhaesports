@@ -5,7 +5,7 @@ const path = require('path');
 
 
 //Entrega de recursos graficos
-esprouterdat.get('/img/:imgsrc', function(req, res){
+esprouterdat.get('/lol/img/:imgsrc', function(req, res){
     res.sendFile(path.join(__dirname, '/img/' + req.params.imgsrc));
 });
 
