@@ -4,16 +4,8 @@ const path = require('path');
 
 
 // Rotas para entrega de dados
-esprouterdat.get('/img/splash_braum', function(req, res){
-    res.sendFile(path.join(__dirname, '/img/braum.svg'));
-});
-
-esprouterdat.get('/img/logo_batesp_svg', function(req, res){
-    res.sendFile(path.join(__dirname, '/img/batalhaesports.png'));
-});
-
-esprouterdat.get('/img/logo_batesp_png', function(req, res){
-    res.sendFile(path.join(__dirname, '/img/batalhaesports.svg'));
+esprouterdat.get('/img/:imgsrc', function(req, res){
+    res.sendFile(path.join(__dirname, '/img/' + req.params.imgsrc));
 });
 
 
