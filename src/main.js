@@ -13,7 +13,6 @@ app.use(esprouterdat);
 
 
 
-
 //Rota para o sub dominio rbw6 [Sub dominio raimbowsix]
 
 //Paginas
@@ -31,7 +30,6 @@ app.use(lolrouter);
 //Dados
 const lolrouterdat = require('./routes_lol/datarouter.js')
 app.use(lolrouterdat);
-
 
 
 
