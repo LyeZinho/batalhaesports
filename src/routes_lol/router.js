@@ -13,7 +13,7 @@ lolrouter.get('/lol/lista', function(req, res){
     res.sendFile(path.join(__dirname, '/champlist.html'));
 });
 
-lolrouter.get('/lol/data', function(req, res){
+lolrouter.get('/lol/datas', function(req, res){
     res.sendFile(path.join(__dirname, '/champdate.html'));
 });
 
