@@ -18,7 +18,7 @@ lolrouter.get('/lol/datas', function(req, res){
 });
 
 lolrouter.get('/lol/top', function(req, res){
-    res.sendFile(path.join(__dirname, '/melhores.html'));
+    res.sendFile(path.join(__dirname, '/top.html'));
 });
 
 
